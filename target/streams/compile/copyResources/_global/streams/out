@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/jasna.blemberg/code/kupo/conf/logback.xml,/Users/jasna.blemberg/code/kupo/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/jasna.blemberg/code/kupo/conf/messages,/Users/jasna.blemberg/code/kupo/target/scala-2.13/classes/messages)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/jasna.blemberg/code/kupo/conf/application.conf,/Users/jasna.blemberg/code/kupo/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/jasna.blemberg/code/kupo/conf/routes,/Users/jasna.blemberg/code/kupo/target/scala-2.13/classes/routes)[0m

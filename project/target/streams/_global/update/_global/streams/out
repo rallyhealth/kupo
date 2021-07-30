@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = false, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/Users/jasna.blemberg/code/kupo/project/"), "kupo-build")...[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating ProjectRef(uri("file:/Users/jasna.blemberg/code/kupo/project/"), "kupo-build")[0m
+[0m[[0m[33mwarn[0m] [0m[0mThere may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m

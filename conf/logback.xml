@@ -1,0 +1,28 @@
+<!-- https://www.playframework.com/documentation/latest/SettingsLogger -->
+<configuration>
+
+  <conversionRule conversionWord="coloredLevel" converterClass="play.api.libs.logback.ColoredLevel" />
+
+  <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5coloredLevel %cyan(%logger{15}): %msg %mdc%n%rEx{full,${stackTraceFilterPatterns}}</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <withJansi>true</withJansi>
+    <encoder>
+      <charset>UTF-8</charset>
+      <pattern>
+        %d{yyyy-MM-dd HH:mm:ss} %highlight(%-5level) %cyan(%logger{36}) %magenta(%X{akkaSource}) %msg%n
+      </pattern>
+    </encoder>
+  </appender>
+
+  <logger name="play" level="INFO" />
+  <logger name="com.rallyhealth.kupo" level="DEBUG" />
+
+  <root level="WARN">
+    <appender-ref ref="console" />
+  </root>
+</configuration>

@@ -1,0 +1,12 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example com.rallyhealth.kupo.controller showing a sample home page
+POST        /botHook                    com.rallyhealth.kupo.controller.KupoController.eventOrVerification()
+POST        /interaction                com.rallyhealth.kupo.controller.KupoController.interaction()
+
+GET         /oauthcallback              com.rallyhealth.kupo.controller.SlackController.oauthCallback(code: String)
+
+
