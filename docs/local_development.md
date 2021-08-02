@@ -2,9 +2,6 @@
 
 ## Initial setup
 
-Please create your own fork of the kupo repo, and push PRs
-from there. Thanks!
-
 ### Data
 
 1. Start up a [Redis server](https://formulae.brew.sh/formula/redis).
