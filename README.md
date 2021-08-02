@@ -30,8 +30,8 @@ Overall, Kupo aims to make Slack spaces safer.
 
 ## Contributing
 
-Check out to-dos above or any open issues. Create PRs or issues for improvements or bugs you'd like to
-see addressed.
+Check out to-dos above or any open issues. Create a fork for pull requests (PRs). Add issues for improvements or bugs you'd like to
+see addressed. Please tag [@JasnaMRB](https://github.com/JasnaMRB) and [@usufruct99](https://github.com/usufruct99).
 
 ## Setting up with Slack and a Remote Server
 
